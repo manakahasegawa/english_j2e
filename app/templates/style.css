@@ -1,0 +1,17 @@
+.quiz {
+    padding: 16px
+}
+.qu {
+    display: flex;
+    background: #fee;
+    text-align: center;
+    border-radius: 7px;
+}
+.q {
+    padding: 0px 10px 0px 50px;
+}
+.ans {
+    background: #fef;
+    border-radius: 7px;
+    text-align: center;
+}

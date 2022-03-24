@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="quiz">
+    <div class='qu'>
+    <p class="q">問題</p>
+    <p class="q_content">{{ meaning_correct }}</p>
+    </div>
+    <div class='answer'>
+        <form action="/index" method='POST'>
+        <input type="submit" name="send" value= {{ selected_word[0] }}>
+        <input type="submit" name="send" value= {{ selected_word[1] }}>
+        <input type="submit" name="send" value= {{ selected_word[2] }}>
+        <input type="submit" name="send" value= {{ selected_word[3] }}>
+        </form>
+    </div>
+    <p class="A">{{ a }}</p>
+    <form action="/nigate" method='POST'>
+        <input type="submit" value="次の問題">
+        </form>
+</div>
